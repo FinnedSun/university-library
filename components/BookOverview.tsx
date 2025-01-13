@@ -55,7 +55,7 @@ export const BookOverview = ({
             coverImage={cover}
           />
 
-          <div className="absolute left-16 top-10 rotate-12 opacity-40 max-sm:hidden">
+          <div className="absolute left-16 top-10 -rotate-[-19deg] opacity-80 max-sm:hidden blur">
             <BookCover
               variant="wide"
               coverColor={color}
