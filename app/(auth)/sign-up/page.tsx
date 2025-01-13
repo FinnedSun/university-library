@@ -13,8 +13,8 @@ const SignUpPage = () => {
       defaultValues={{
         fullName: '',
         email: '',
-        universityId: 0,
         password: '',
+        universityId: 0,
         universityCard: '',
       }}
       onSubmit={() => { }}
