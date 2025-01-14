@@ -15,7 +15,7 @@ const AuthLayout = ({ children }: { children: ReactNode }) => {
         </div>
       </section>
 
-      <section className='auth-illustration hidden lg:flex'>
+      <section className='auth-illustration'>
         <Image
           src={"/images/auth-illustration.png"}
           alt='Ilustration'
